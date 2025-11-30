@@ -50,7 +50,7 @@ export default function AboutSection() {
             <div className="relative flex justify-center">
               <div className="w-[168px] h-[299px] md:w-[220px] md:h-[390px] lg:w-[260px] lg:h-[460px]">
                 <img
-                  src="/krishna-statue-temple-golden-spiritual.jpg"
+                  src="/gallery/movieposter3.jpg"
                   alt="Story Visualization"
                   className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-accent/20"
                 />
