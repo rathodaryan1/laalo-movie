@@ -54,7 +54,7 @@ export default function AboutSection() {
           >
             <div className="relative">
               <img
-                src="/krishna-statue-temple-golden-spiritual.jpg"
+                src="/gallery/movieposter3.jpg"
                 alt="Story Visualization"
                 className="rounded-lg shadow-2xl border-2 border-accent/20"
               />
