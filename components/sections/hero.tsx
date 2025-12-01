@@ -72,7 +72,8 @@ export default function HeroSection() {
 
           {/* VIEW GALLERY — SAME DESIGN */}
                 <a
-            href="https://in.bookmyshow.com/movies/ahmedabad/laalo-krishna-sada-sahaayate/ET00459408"   // <-- replace with official ticket link later
+            href="https://in.bookmyshow.com/explore/movies/laalo
+"   // <-- replace with official ticket link later
             target="_blank"
             className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 
                       transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105 shadow-md"
