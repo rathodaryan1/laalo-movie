@@ -11,7 +11,10 @@ import TimelineSection from "@/components/sections/timeline"
 import DialoguesSection from "@/components/sections/dialogues"
 import SongsSection from "@/components/sections/songs"
 import EventsSection from "@/components/sections/events"
+import LocationsSection from "@/components/sections/locations"
 import ContactSection from "@/components/sections/contact"
+
+
 
 
 export default function Home() {
@@ -28,6 +31,7 @@ export default function Home() {
       <DialoguesSection />
       <SongsSection />
       <EventsSection />
+      <LocationsSection/>
       <ContactSection />
       
     </main>

@@ -83,14 +83,7 @@ export default function Footer() {
           {/* Contact + Social */}
           <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <h3 className="text-sm font-bold uppercase tracking-widest text-foreground mb-6">Connect With Us</h3>
-            
-            <div className="mb-6">
-              <p className="text-xs text-muted-foreground uppercase tracking-widest mb-2">Email</p>
-              <a href="mailto:info@laalomovie.com" className="text-sm text-accent hover:text-accent/80 transition-colors">
-                info@laalomovie.com
-              </a>
-            </div>
-
+          
             <div>
               <p className="text-xs text-muted-foreground uppercase tracking-widest mb-3">Follow</p>
               <div className="flex gap-3">

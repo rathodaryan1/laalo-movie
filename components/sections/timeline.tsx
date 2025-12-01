@@ -6,13 +6,13 @@ export default function TimelineSection() {
   const [isVisible, setIsVisible] = useState(false)
 
   const timelineEvents = [
-    { phase: "Script Development", date: "Jan 2024", icon: "📝", description: "Crafting the divine narrative" },
-    { phase: "Pre-Production", date: "Feb 2024", icon: "🎬", description: "Preparing sets and casting" },
-    { phase: "Filming Begins", date: "Mar 2024", icon: "🎥", description: "Capturing cinematic moments" },
-    { phase: "Teaser Release", date: "Aug 2024", icon: "🎞️", description: "First glimpse revealed" },
-    { phase: "Trailer Launch", date: "Sep 2024", icon: "🚀", description: "Full story preview" },
-    { phase: "Music Release", date: "Oct 2024", icon: "🎵", description: "Soundtrack premiere" },
-    { phase: "Grand Release", date: "Nov 2024", icon: "⭐", description: "Cinemas Worldwide" },
+    { phase: "Script Development", date: "January – March 2024", icon: "📝", description: "Crafting the divine narrative" },
+    { phase: "Pre-Production", date: "April – June 2024", icon: "🎬", description: "Preparing sets and casting" },
+    { phase: "Filming Begins", date: "Jul – Sep 2024", icon: "🎥", description: "Capturing cinematic moments" },
+    { phase: "Teaser Release", date: "Dec 2024", icon: "🎞️", description: "First glimpse revealed" },
+    { phase: "Trailer Launch", date: "29 Sep 2025", icon: "🚀", description: "Full story preview" },
+    { phase: "Music Release", date: "Aug-Oct 2025", icon: "🎵", description: "Soundtrack premiere" },
+    { phase: "Grand Release", date: "10 Oct 2025", icon: "⭐", description: "Cinemas Worldwide" },
   ]
 
   useEffect(() => {

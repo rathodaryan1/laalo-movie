@@ -11,12 +11,10 @@ export default function GallerySection() {
     { id: 0, src: "/gallery/movieposter1.avif", alt: "Movie Poster 1" },
     { id: 1, src: "/gallery/movieposter2.webp", alt: "Movie Poster 2" },
     { id: 2, src: "/gallery/laooo.jpg", alt: "Behind The Scenes 1" },
-    { id: 3, src: "/laalo-movie-poster-krishna-statue.jpg", alt: "Movie Poster 2" },
-    { id: 4, src: "/laalo-film-still-temple-scene.jpg", alt: "Film Still 2" },
-    { id: 5, src: "/laalo-behind-the-scenes-actors.jpg", alt: "Behind The Scenes 2" },
-    { id: 6, src: "/laalo-movie-poster-devotion.jpg", alt: "Movie Poster 3" },
-    { id: 7, src: "/laalo-film-still-emotional.jpg", alt: "Film Still 3" },
-    { id: 8, src: "/laalo-behind-the-scenes-director.jpg", alt: "Behind The Scenes 3" },
+    { id: 3, src: "/gallery/output-onlinepngtools.png", alt: "Movie Poster 2" },
+    { id: 4, src: "/gallery/poster4.avif", alt: "Film Still 2" },
+    { id: 5, src: "/gallery/actorss.jpg", alt: "Behind The Scenes 2" },
+    
   ]
 
   useEffect(() => {

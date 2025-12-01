@@ -26,7 +26,8 @@ export default function Navbar() {
     { label: "Songs", href: "/#songs" },
     { label: "Journey", href: "/#journey" },
     { label: "Dialogues", href: "/#dialogues" },
-    { label: "Contact", href: "/contact" },
+    { label: "Locations", href: "/#locations" },
+    { label: "Contact", href: "/#contact" },
   ]
 
   return (

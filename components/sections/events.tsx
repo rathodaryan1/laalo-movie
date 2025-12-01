@@ -8,42 +8,42 @@ export default function EventsPage() {
       id: 1,
       title: "Ahmedabad – Meet the Laalo Team",
       date: "29 Nov 2025 • 9:30 PM",
-      image: "/events/ahmedabad.jpg",
+      image: "/gallery/laloooo4.jpg",
       description: "Official Gujarat Tour event featuring Karan Joshi, Reeva Rachh & Shruhad Goswami at Drive-In Cinema, Ahmedabad.",
     },
     {
       id: 2,
       title: "Bhavnagar – Fan Interaction",
-      date: "Coming Soon",
-      image: "/events/bhavnagar.jpg",
+      date: "30 Nov 2025 • 6:30 PM",
+      image: "/gallery/bhavnagar.jpg",
       description: "Cast meets fans, shares behind-the-scenes stories, and celebrates the success of Laalo.",
     },
     {
       id: 3,
       title: "Surat – Special Screening",
       date: "Coming Soon",
-      image: "/events/surat.jpg",
+      image: "/gallery/images.jpg",
       description: "Exclusive fan screening followed by Q&A with the Laalo cast.",
     },
     {
       id: 4,
       title: "Patan – Devotional Evening",
       date: "Coming Soon",
-      image: "/events/patan.jpg",
+      image: "/gallery/images.jpg",
       description: "A spiritual musical gathering inspired by Laalo’s devotional soundtrack.",
     },
     {
       id: 5,
       title: "Rajkot – Meet & Greet",
       date: "Coming Soon",
-      image: "/events/rajkot.jpg",
+      image: "/gallery/images.jpg",
       description: "Interact with the lead actors, take photos, and celebrate Laalo.",
     },
     {
       id: 6,
       title: "Dwarka – Krishna Blessings Tour",
       date: "Coming Soon",
-      image: "/events/dwarka.jpg",
+      image: "/gallery/images.jpg",
       description: "A divine fan event where the Laalo team visits Dwarka with audience members.",
     },
   ]
@@ -88,7 +88,7 @@ export default function EventsPage() {
           </div>
         </div>
       </main>
-
+            
     </>
   )
 }

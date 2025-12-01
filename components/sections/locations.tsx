@@ -8,36 +8,41 @@ export default function LocationsSection() {
 
   const locations = [
     {
-      name: "Dwarka Temple",
+      name: "Girnar",
       state: "Gujarat, India",
       description: "Historic spiritual site where key scenes were filmed",
-      image: "/dwarka-temple-gujarati-ancient-monument.jpg",
+      image: "/gallery/girnar.webp",
     },
     {
-      name: "Somnath Temple",
+      name: "Bhavnath Temple",
       state: "Gujarat, India",
       description: "Iconic location representing divine presence",
-      image: "/somnath-temple-coastline-mahakal.jpg",
+      image: "/gallery/bhavnath.jpg",
     },
     {
-      name: "Rural Gujarat",
-      state: "Rajkot District",
+      name: "Damodar Kund",
+      state: "Gujrat, India",
       description: "Pastoral landscapes capturing village life and tradition",
-      image: "/gujarati-village-rural-landscape-agricultural-fiel.jpg",
+      image: "/gallery/damodar-kund-water-reservoir.jpg",
     },
   ]
 
   useEffect(() => {
+    const section = document.getElementById("locations")
+    if (!section) return
+
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
         setIsVisible(true)
+        observer.disconnect()
       }
     })
-    observer.observe(document.getElementById("locations-section") || new HTMLElement())
+
+    observer.observe(section)
   }, [])
 
   return (
-    <section id="locations-section" className="py-20 px-6 md:px-12 bg-background relative overflow-hidden">
+    <section id="locations" className="py-20 px-6 md:px-12 bg-background relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
@@ -53,7 +58,9 @@ export default function LocationsSection() {
           {locations.map((location, idx) => (
             <div
               key={idx}
-              className={`group rounded-lg overflow-hidden border border-border hover:border-accent/50 transition-all duration-300 transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
+              className={`group rounded-lg overflow-hidden border border-border hover:border-accent/50 transition-all duration-1000 ${
+                isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+              }`}
               style={{ transitionDelay: `${idx * 0.15}s` }}
             >
               {/* Image */}
