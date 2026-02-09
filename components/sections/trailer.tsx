@@ -19,7 +19,7 @@ export default function TrailerSection() {
   }, [])
 
   return (
-    <section id="trailer" className="py-20 px-6 md:px-12 bg-black/50 relative overflow-hidden">
+    <div className="py-20 px-6 md:px-12 bg-black/50 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
 
         {/* Section Header */}
@@ -48,6 +48,6 @@ export default function TrailerSection() {
           The trailer plays directly on the website and views count on YouTube.
         </p>
       </div>
-    </section>
+    </div>
   )
 }
