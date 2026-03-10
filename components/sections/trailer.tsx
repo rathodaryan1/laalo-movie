@@ -34,14 +34,7 @@ export default function TrailerSection() {
             isVisible ? "scale-100 opacity-100" : "scale-95 opacity-0"
           }`}
         >
-          <iframe
-            className="w-full h-full rounded-xl"
-            src="https://www.youtube.com/embed/TVUPpmkrvVw?si=-y7GCsAAjhsRVt_3" 
-            title="Laalo Official Trailer"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TVUPpmkrvVw?si=-fxjg4yDqHED0ZP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <p className="text-center mt-8 text-foreground/70 text-sm">
