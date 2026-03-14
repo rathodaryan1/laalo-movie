@@ -19,22 +19,32 @@ export default function TrailerSection() {
   }, [])
 
   return (
-    <div className="py-20 px-6 md:px-12 bg-black/50 relative overflow-hidden">
+    <div id="trailer" className="py-20 px-6 md:px-12 bg-black/50 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
 
-        {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">Watch The Trailer</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+            Watch The Trailer
+          </h2>
           <div className="h-1 w-20 bg-accent mx-auto"></div>
         </div>
 
-        {/* YOUTUBE EMBED */}
         <div
           className={`relative aspect-video max-w-4xl mx-auto rounded-xl overflow-hidden transition-all duration-1000 ${
             isVisible ? "scale-100 opacity-100" : "scale-95 opacity-0"
           }`}
         >
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TVUPpmkrvVw?si=-fxjg4yDqHED0ZP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/TVUPpmkrvVw"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="w-full h-full"
+          ></iframe>
         </div>
 
         <p className="text-center mt-8 text-foreground/70 text-sm">
